@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    color: rgb(0, 0, 0); outline: black;
+    overflow: scroll;
+    white-space: nowrap;
+    text-decoration: none;
+    background-color: rgb(255, 232, 232);
+    border: white;
+}
+nav{
+    text-align: center;
+    position: fixed;
+    top: 40px;
+    left: 635px;
+}
+nav li{
+list-style-type: none;
+display: inline;
+padding-bottom: 0px
+}
+nav a:visited{
+color: rgb(0, 0, 0)
+}
+nav a{
+  color: rgb(0, 0, 0)
+}
+nav a:link{
+  text-decoration: none
+}
+.column{
+    float: left;
+    /*padding: 10px;*/
+    margin-top: 100px;
+    white-space: nowrap;
+    width: 33.33%;
+    white-space: pre-line;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+.box{
+    width: 33%;
+}
